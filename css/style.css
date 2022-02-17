@@ -539,13 +539,16 @@ section .hero-section {
     -o-transition: all 0.3s linear;
 }
 
-.collection-row .single-product .details {
+
+/* ----------------product page details css------------ */
+
+.single-product .details {
     width: 100%;
     font-size: 1.3rem;
     text-align: center;
 }
 
-.collection-row .single-product .details .name {
+.single-product .details .name {
     text-overflow: ellipsis;
     word-wrap: break-word;
     overflow: hidden;
@@ -555,13 +558,13 @@ section .hero-section {
     margin-bottom: 0.8rem;
 }
 
-.collection-row .single-product .details .pricing .discount {
+.single-product .details .pricing .discount {
     text-decoration: line-through;
     font-size: 1.5rem;
     color: silver;
 }
 
-.collection-row .single-product .details .pricing {
+.single-product .details .pricing {
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -569,10 +572,13 @@ section .hero-section {
     color: silver;
 }
 
-.collection-row .single-product .details .pricing .price {
+.single-product .details .pricing .price {
     color: red;
     font-size: 2rem;
 }
+
+
+/* ----------------product page details css end------------ */
 
 
 /* collection product css ends */

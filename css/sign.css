@@ -1,0 +1,75 @@
+.sign-in-page {
+    margin-top: 11rem;
+    font-size: 1.4rem;
+}
+
+.sign-in-page fieldset {
+    width: 90%;
+    margin: auto;
+    border: 1px solid black;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.sign-in-page form {
+    display: flex;
+    width: auto;
+    margin: auto;
+    column-gap: 3rem;
+    row-gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sign-in-page legend {
+    margin-left: 15rem;
+}
+
+.sign-in-page label {
+    display: block;
+}
+
+.sign-in-page form .input-div {
+    width: 50rem;
+}
+
+.gender-dob-div {
+    display: flex;
+    align-items: center;
+    width: 50rem;
+    column-gap: 2rem;
+    color: rgba(0, 0, 0, 0.9);
+    padding-bottom: 2rem;
+}
+
+.sign-in-page form input {
+    width: 100%;
+    height: 4rem;
+    border: 1px solid black;
+    padding: 0 1rem;
+}
+
+.sign-in-page select {
+    width: 9rem;
+    height: 3rem;
+    font-size: 1.4rem;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.sign-in-page .btn-div {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    gap: 2rem;
+}
+
+.sign-in-page .btn-div p {
+    font-size: 1rem;
+}
+
+.sign-in-page .btn-div .btn {
+    width: 24rem;
+    height: 4rem;
+}

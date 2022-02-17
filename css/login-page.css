@@ -1,0 +1,46 @@
+.loginpage {
+    margin-top: 10rem;
+}
+
+.login-page fieldset {
+    width: 60%;
+    height: 44vh;
+    margin: auto;
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.login-page fieldset p {
+    position: absolute;
+    top: 0;
+    right: 1rem;
+}
+
+.login-page fieldset form div {
+    margin: 1rem 0;
+}
+
+.login-page fieldset input {
+    display: block;
+    width: 35rem;
+    height: 3.5rem;
+    border: 1px solid black;
+    padding: 0 1rem;
+}
+
+.login-page legend {
+    margin-left: 15rem;
+}
+
+.login-page fieldset label {
+    text-align: center;
+    display: block;
+}
+
+.login-page fieldset .btn-div {
+    text-align: center;
+}
